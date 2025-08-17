@@ -147,7 +147,7 @@ New users can register with name, email, and password. Includes validation and c
 Users create custom forms with dynamic fields. Saved forms are listed for reuse and Airtable sync.
 
 ### 🧩 Field Creation
-[![Form Creation](./screenshots/form-creation.png)](./screenshots/field-creation.png)
+[![Field Creation](./screenshots/field-creation.png)](./screenshots/field-creation.png)
 Each field supports label, type selection, and validation like “Required.” Live preview updates instantly.
 
 ### 🗄️ MongoDB Sync
