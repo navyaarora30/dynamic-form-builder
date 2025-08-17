@@ -21,6 +21,7 @@ A full-stack application built with MongoDB, Express, React, and Node.js that al
 - **Deployment:** Vercel (frontend), Render (backend)
 
 Additional tools:
+
 - Thunder Client (API testing)
 - Render (deployment)
 - GitHub (version control)
@@ -30,6 +31,7 @@ Additional tools:
 ## 📦 Features
 
 ### ✅ Core Functionality
+
 - User login with dynamic owner tracking
 - Form builder with Airtable field selection
 - Conditional logic between questions
@@ -38,6 +40,7 @@ Additional tools:
 - MongoDB stores user and form metadata
 
 ### 🎁 Bonus Features
+
 - Form preview before submission
 - Dashboard for saved forms
 - Graceful fallback if Airtable user object is missing
@@ -67,7 +70,8 @@ Additional tools:
 
 Each question can be shown or hidden based on previous answers.
 
-**Example:**  
+**Example:**
+
 > Show “GitHub URL” only if `Role = Engineer`
 
 This logic is applied both in the form builder and dynamically during form filling.
@@ -99,6 +103,7 @@ dynamic-form-builder/
 ├── .env.example
 ├── README.md
 ```
+
 ---
 
 ## ⚙️ Setup Instructions
@@ -128,29 +133,29 @@ npm install
 npm run dev
 
 
-📸 Screenshots 
+📸 Screenshots
 ### 🔐 Login Screen
-![Login](./screenshots/login-page.png)
+[![Login](./screenshots/login-page.png)](./screenshots/login-page.png)
 Users log in to access personalized form builder dashboard.
 
 ### 📝 Registration Screen
-![Register](./screenshots/register-page.png)
+[![Register](./screenshots/register-page.png)](./screenshots/register-page.png)
 New users can register with name, email, and password. Includes validation and clean UI.
 
 ### 🧠 Form Builder UI
-![Form Builder](./screenshots/form-builder-ui.png)
+[![Form Builder](./screenshots/form-builder-ui.png)](./screenshots/form-builder-ui.png)
 Users create custom forms with dynamic fields. Saved forms are listed for reuse and Airtable sync.
 
 ### 🧩 Field Creation
-![Field Creation](./screenshots/field-creation.png)
+[![Form Creation](./screenshots/form-creation.png)](./screenshots/field-creation.png)
 Each field supports label, type selection, and validation like “Required.” Live preview updates instantly.
 
 ### 🗄️ MongoDB Sync
-![MongoDB](./screenshots/mongodb-sync.png)
+[![MongoDB](./screenshots/mongodb-sync.png)](./screenshots/mongodb-sync.png)
 Form data is stored in MongoDB with Airtable metadata, including airtableId, timestamps, and owner.
 
 ### 🔄 Airtable Dashboard
-![Airtable](./screenshots/airtable-dashboard.png)
+[![Airtable](./screenshots/airtable-dashboard.png)](./screenshots/airtable-dashboard.png)
 Submitted forms appear in Airtable with title, slug, field count, and creation timestamp.
 
 
@@ -161,3 +166,4 @@ Includes real-world Airtable integration, dynamic form logic, and full deploymen
 
 ---
 
+```
