@@ -135,7 +135,7 @@ npm run dev
 
 📸 Screenshots
 ### 🔐 Login Screen
-[![Login](./screenshots/login-page.png)](./screenshots/login-page.png)
+[![Login](https://raw.githubusercontent.com/navyaarora30/dynamic-form-builder/main/screenshots/login-page.png)](https://raw.githubusercontent.com/navyaarora30/dynamic-form-builder/main/screenshots/login-page.png)
 Users log in to access personalized form builder dashboard.
 
 ### 📝 Registration Screen
